@@ -123,9 +123,9 @@ src="https://www.facebook.com/tr?id=1332962138516730&ev=PageView&noscript=1"
   });
 
   // Countdown + Auto Redirect Script
-  let time = 5;
-  const countdown = document.getElementById("countdown");
-  const redirectURL = "https://telegram.me/+9FJca0wffAE4NWI1";
+ // let time = 5;
+//  const countdown = document.getElementById("countdown");
+//  const redirectURL = "https://telegram.me/+9FJca0wffAE4NWI1";
 
   const timer = setInterval(() => {
     if(time <= 0){
@@ -133,10 +133,10 @@ src="https://www.facebook.com/tr?id=1332962138516730&ev=PageView&noscript=1"
       countdown.textContent = "Redirecting now...";
       window.location.href = redirectURL;
     } else {
-      countdown.textContent = `Redirecting in 00:${time < 10 ? '0'+time : time}`;
-      time--;
+    //  countdown.textContent = `Redirecting in 00:${time < 10 ? '0'+time : time}`;
+    //  time--;
     }
-  }, 1000);
+ // }, 1000);
 </script>
 
 </body>
